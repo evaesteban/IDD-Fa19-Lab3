@@ -1,7 +1,3 @@
-NOT FINISHED YET
-
-
-
 # Data Logger (and using cool sensors!)
 
 *A lab report by Eva Pilar Esteban Velasco.*
