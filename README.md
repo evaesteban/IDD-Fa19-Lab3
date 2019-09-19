@@ -1,3 +1,7 @@
+NOT FINISHED YET
+
+
+
 # Data Logger (and using cool sensors!)
 
 *A lab report by Eva Pilar Esteban Velasco.*
@@ -52,6 +56,10 @@ Softpot: 10K in series from one side pin to GND and 10K from the other side to V
 Flex sensor: 10K, because it is similar to FSR.
 
 **e. What kind of relationship does the resistance have as a function of stimulus? (e.g., linear?)**
+
+Flex sensor: Almost linearly
+Photo cell: Logarithmic
+Softpot: Linear
 
 ### 2. Accelerometer
  
