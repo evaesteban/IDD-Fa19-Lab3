@@ -1,6 +1,6 @@
 # Data Logger (and using cool sensors!)
 
-*A lab report by John Q. Student.*
+*A lab report by Eva Pilar Esteban Velasco.*
 
 ## In The Report
 
@@ -11,8 +11,12 @@ For this lab, we will be experimenting with a variety of sensors, sending the da
 ## Part A.  Writing to the Serial Monitor
  
 **a. Based on the readings from the serial monitor, what is the range of the analog values being read?**
+
+From 0 to 1023, which is 1024 different values.
  
 **b. How many bits of resolution does the analog to digital converter (ADC) on the Arduino have?**
+
+It has 10 bits of resolution because 1024 = 2^10.
 
 ## Part B. RGB LED
 
