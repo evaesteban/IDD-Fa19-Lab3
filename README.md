@@ -40,7 +40,10 @@ To find this out, I first looked at the relationship between force and resistanc
 
 
 
+
 **c. Can you change the LED fading code values so that you get the full range of output voltages from the LED when using your FSR?**
+
+Yes, I used the Arduino map() function for this.
 
 **d. What resistance do you need to have in series to get a reasonable range of voltages from each sensor?**
 
