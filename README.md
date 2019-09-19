@@ -22,13 +22,23 @@ It has 10 bits of resolution because 1024 = 2^10.
 
 **How might you use this with only the parts in your kit? Show us your solution.**
 
+By plugging the common anode to power, and each of the LED legs to the corresponding Arduino pin and to the corresponding resistor. The resistor is then connected to ground. We could use this system as party lights, or to create an original ambient light.
+
+(INSERT VIDEO)
+
 ## Part C. Voltage Varying Sensors 
  
 ### 1. FSR, Flex Sensor, Photo cell, Softpot
 
 **a. What voltage values do you see from your force sensor?**
 
+ When I apply force I can see form 0 to 1,002, but I assume it can go up until 1023 (I am unable to provide enough force manually for it to reach that value).
+
 **b. What kind of relationship does the voltage have as a function of the force applied? (e.g., linear?)**
+
+To find this out, I first looked at the relationship between force and resistance in the datasheet (picture below). When the force increases, the resistance increases but not in a linear way. Also, the voltage is inversely proportional to the resistance because it is a voltage divider. The mathematical formula for the output voltage is Vout = Vcc*(R/(R+FSR)). 
+
+
 
 **c. Can you change the LED fading code values so that you get the full range of output voltages from the LED when using your FSR?**
 
