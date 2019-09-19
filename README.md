@@ -57,9 +57,9 @@ Flex sensor: 10K, because it is similar to FSR.
 
 **e. What kind of relationship does the resistance have as a function of stimulus? (e.g., linear?)**
 
-Flex sensor: Almost linearly
-Photo cell: Logarithmic
-Softpot: Linear
+Flex sensor: Linearly with bent angle
+Photo cell: Logarithmic with illumination
+Softpot: Linearly with touch position
 
 ### 2. Accelerometer
  
