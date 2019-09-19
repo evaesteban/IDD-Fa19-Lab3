@@ -50,12 +50,6 @@ To find this out, I first looked at the relationship between force and resistanc
  
 **a. Include your accelerometer read-out code in your write-up.**
 
-### 3. IR Proximity Sensor
-
-**a. Describe the voltage change over the sensing range of the sensor. A sketch of voltage vs. distance would work also. Does it match up with what you expect from the datasheet?**
-
-**b. Upload your merged code to your lab report repository and link to it here.**
-
 ## Optional. Graphic Display
 
 **Take a picture of your screen working insert it here!**
