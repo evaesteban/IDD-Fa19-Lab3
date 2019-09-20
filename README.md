@@ -39,7 +39,9 @@ Yes, I used the Arduino map() function for this. The link to the code can be fou
 **d. What resistance do you need to have in series to get a reasonable range of voltages from each sensor?**
 
 Photo cell: 10K pull-down resistor from A0 to GND.
+
 Softpot: 10K in series from one side pin to GND and 10K from the other side to Vcc.
+
 Flex sensor: 10K, because it is similar to FSR.
 
 **e. What kind of relationship does the resistance have as a function of stimulus? (e.g., linear?)**
