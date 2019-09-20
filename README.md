@@ -28,10 +28,7 @@ By plugging the common anode to power, and each of the LED legs to the correspon
 
 **b. What kind of relationship does the voltage have as a function of the force applied? (e.g., linear?)**
 
-To find this out, I first looked at the relationship between force and resistance in the datasheet (picture below). When the force increases, the resistance increases but not in a linear way. Also, the voltage is inversely proportional to the resistance because it is a voltage divider. The mathematical formula for the output voltage is Vout = Vcc*(R/(R+FSR)). 
-
-
-
+To find this out, I first looked at the relationship between force and resistance. When the force increases, the resistance increases but not in a linear way. Also, the voltage is inversely proportional to the resistance because it is a voltage divider. The mathematical formula for the output voltage is Vout = Vcc*(R/(R+FSR)). Therefore, the voltage varies inversely to the resistance, which increases in a logarithmic fashion with the force.
 
 **c. Can you change the LED fading code values so that you get the full range of output voltages from the LED when using your FSR?**
 
@@ -45,11 +42,11 @@ Flex sensor: 10K, because it is similar to FSR.
 
 **e. What kind of relationship does the resistance have as a function of stimulus? (e.g., linear?)**
 
-Flex sensor: Linearly with bent angle
+Flex sensor: Linearly with bent angle.
 
-Photo cell: Logarithmic with illumination
+Photo cell: Logarithmic with illumination.
 
-Softpot: Linearly with touch position
+Softpot: Linearly with touch position.
 
 ### 2. Accelerometer
  
