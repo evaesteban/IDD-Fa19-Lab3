@@ -72,11 +72,19 @@ I really want to do this but I have too many deadlines this week, so I will prob
 
 **a. Does it matter what actions are assigned to which state? Why?**
 
+Yes. We need to know what actions correspond to each state because, if not, you can clear what you write. For example, if clear was the second state, whenever you try to read or write you will always clear it when going from one state to the other and it will not work. This is because the potentiometer uses a continuous range of values.
+
 **b. Why is the code here all in the setup() functions and not in the loop() functions?**
+
+Because we only want to perform the tasks once.
 
 **c. How many byte-sized data samples can you store on the Atmega328?**
 
+ You can store 512 byte-sized data samples.
+
 **d. How would you get analog data from the Arduino analog pins to be byte-sized? How about analog data from the I2C devices?**
+
+
 
 **e. Alternately, how would we store the data if it were bigger than a byte? (hint: take a look at the [EEPROMPut](https://www.arduino.cc/en/Reference/EEPROMPut) example)**
 
