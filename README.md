@@ -60,6 +60,8 @@ Softpot: Linearly with touch position.
 
 **Take a picture of your screen working insert it here!**
 
+I really want to do this but I have too many deadlines this week, so I will probably just do it later on over a weekend or Fall Break!
+
 ## Part D. Logging values to the EEPROM and reading them back
  
 ### 1. Reading and writing values to the Arduino EEPROM
