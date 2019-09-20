@@ -13,6 +13,7 @@ void state2Setup() {
   // read photocell value
   cellValue = analogRead(cellPin);
 
+  // map cell value to range 0-255
   cellValueMapped = map(cellValue, 0, 1023, 0, 255);
 
   // write value to EEPROM
