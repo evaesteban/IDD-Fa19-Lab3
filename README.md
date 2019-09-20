@@ -111,6 +111,8 @@ For this part, I used the photocell as the sensor to vary from the accelerometer
  
 **a. Insert here a copy of your final state diagram.**
 
+![](//github.com/evaesteban/IDD-Fa19-Lab3/blob/master/State_Diagram.jpg)
+
 ### 3. Create your data logger!
  
 **a. Record and upload a short demo video of your logger in action.**
