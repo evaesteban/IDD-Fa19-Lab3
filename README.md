@@ -90,6 +90,8 @@ For data from I2C devices, since each devices outputs values in a different rang
 
 **e. Alternately, how would we store the data if it were bigger than a byte? (hint: take a look at the [EEPROMPut](https://www.arduino.cc/en/Reference/EEPROMPut) example)**
 
+We could use the put() function, indicating the address where we want to store the data. If you want to store several values linked to each other, you can create a structure, fill in its fields, and then use the put() function to store it.
+
 **Upload your modified code that takes in analog values from your sensors and prints them back out to the Arduino Serial Monitor.**
 
 ### 2. Design your logger
