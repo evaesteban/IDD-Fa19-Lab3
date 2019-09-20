@@ -2,12 +2,6 @@
 
 *A lab report by Eva Pilar Esteban Velasco.*
 
-## In The Report
-
-Include your responses to the bold questions on your own fork of [this lab report template](https://github.com/FAR-Lab/IDD-Fa18-Lab2). Include snippets of code that explain what you did. Deliverables are due next Tuesday. Post your lab reports as README.md pages on your GitHub, and post a link to that on your main class hub page.
-
-For this lab, we will be experimenting with a variety of sensors, sending the data to the Arduino serial monitor, writing data to the EEPROM of the Arduino, and then playing the data back.
-
 ## Part A.  Writing to the Serial Monitor
  
 **a. Based on the readings from the serial monitor, what is the range of the analog values being read?**
@@ -23,8 +17,6 @@ It has 10 bits of resolution because 1024 = 2^10.
 **How might you use this with only the parts in your kit? Show us your solution.**
 
 By plugging the common anode to power, and each of the LED legs to the corresponding Arduino pin and to the corresponding resistor. The resistor is then connected to ground. We could use this system as party lights, or to create an original ambient light.
-
-(INSERT VIDEO)
 
 ## Part C. Voltage Varying Sensors 
  
