@@ -18,7 +18,7 @@ It has 10 bits of resolution because 1024 = 2^10.
 
 By plugging the common anode to power, and each of the LED legs to the corresponding Arduino pin and to the corresponding resistor. The resistor is then connected to ground. We could use this system as party lights, or to create an original ambient light.
 
-![](LED_Colors.mp4)
+![Link to RBG LED Video](//github.com/evaesteban/IDD-Fa19-Lab3/blob/master/LED_Colors.mp4)
 
 ## Part C. Voltage Varying Sensors 
  
