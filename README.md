@@ -94,6 +94,14 @@ We could use the put() function, indicating the address where we want to store t
 
 **Upload your modified code that takes in analog values from your sensors and prints them back out to the Arduino Serial Monitor.**
 
+For this part, I used the photocell as the sensor to vary from the accelerometer. 
+
+[Link to SwitchState2 code](//github.com/evaesteban/IDD-Fa19-Lab3/blob/master/SwitchState2.ino)
+[Link to state0 code](//github.com/evaesteban/IDD-Fa19-Lab3/blob/master/state0.ino)
+[Link to state1 code](//github.com/evaesteban/IDD-Fa19-Lab3/blob/master/state1.ino))
+[Link to state2 code](//github.com/evaesteban/IDD-Fa19-Lab3/blob/master/state2.ino))
+
+
 ### 2. Design your logger
  
 **a. Insert here a copy of your final state diagram.**
