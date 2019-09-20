@@ -34,7 +34,7 @@ To find this out, I first looked at the relationship between force and resistanc
 
 Yes, I used the Arduino map() function for this. The link to the code can be found below.
 
-[Fade Mapped Code]()
+[Fade Mapped Code](//github.com/evaesteban/IDD-Fa19-Lab3/blob/master/Fade_Map.ino)
 
 **d. What resistance do you need to have in series to get a reasonable range of voltages from each sensor?**
 
