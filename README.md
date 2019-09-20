@@ -56,6 +56,8 @@ Softpot: Linearly with touch position.
  
 **a. Include your accelerometer read-out code in your write-up.**
 
+For this question, instead of using the in-built map() function, I did the mapping manually because I wanted to understand the mathematics behind it. 
+
 ## Optional. Graphic Display
 
 **Take a picture of your screen working insert it here!**
