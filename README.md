@@ -80,11 +80,13 @@ Because we only want to perform the tasks once.
 
 **c. How many byte-sized data samples can you store on the Atmega328?**
 
- You can store 512 byte-sized data samples.
+ You can store 1024 byte-sized data samples.
 
 **d. How would you get analog data from the Arduino analog pins to be byte-sized? How about analog data from the I2C devices?**
 
+For analog data, since 2^10 = 1024 and 2^8 = 256, we need to divide the data by 2^2 which is 4. This way, 1024/4 = 256 is the maximum value and 0/4 = 0 is the minimum value, mapping the whole range.
 
+For data from I2C devices, since each devices outputs values in a different range we could use the map() function if we know the range, or my mathematical approach for the accelerometer if we don't exactly know the range.
 
 **e. Alternately, how would we store the data if it were bigger than a byte? (hint: take a look at the [EEPROMPut](https://www.arduino.cc/en/Reference/EEPROMPut) example)**
 
