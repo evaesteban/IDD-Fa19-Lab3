@@ -58,7 +58,7 @@ Softpot: Linearly with touch position.
 
 For this question, instead of using the in-built map() function, I did the mapping manually because I wanted to understand the mathematics behind it. 
 
-[Link to Accelerometer LED Code]()
+[Link to Accelerometer LED Code](//github.com/evaesteban/IDD-Fa19-Lab3/blob/master/LCD_Accel.ino)
 
 ## Optional. Graphic Display
 
