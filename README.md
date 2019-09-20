@@ -34,7 +34,7 @@ To find this out, I first looked at the relationship between force and resistanc
 
 Yes, I used the Arduino map() function for this. The link to the code can be found below.
 
-[Fade Mapped Code](//github.com/evaesteban/IDD-Fa19-Lab3/blob/master/Fade_Map.ino)
+[Link to Fade Mapped Code](//github.com/evaesteban/IDD-Fa19-Lab3/blob/master/Fade_Map.ino)
 
 **d. What resistance do you need to have in series to get a reasonable range of voltages from each sensor?**
 
@@ -57,6 +57,8 @@ Softpot: Linearly with touch position.
 **a. Include your accelerometer read-out code in your write-up.**
 
 For this question, instead of using the in-built map() function, I did the mapping manually because I wanted to understand the mathematics behind it. 
+
+[Link to Accelerometer LED Code]()
 
 ## Optional. Graphic Display
 
