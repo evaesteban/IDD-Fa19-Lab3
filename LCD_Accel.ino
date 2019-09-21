@@ -1,7 +1,8 @@
-// ECE 5413 - Developing and Designing Interactive Devices
-// Lab 3 Exercise 2
-// Author: Eva Pilar Esteban Velasco 
-//Resources: Basic demo for accelerometer readings from Adafruit LIS3DH used as base code
+/* ECE 5413 - Developing and Designing Interactive Devices
+  Lab 3 Exercise 2
+  Author: Eva Pilar Esteban Velasco
+  Resources: Basic demo for accelerometer readings from Adafruit LIS3DH used as base code
+*/
 
 #include <Wire.h>
 #include <SPI.h>
@@ -79,7 +80,7 @@ void loop() {
   lcd.setCursor(2, 1);
   lcd.print(lis.z);
 
-// map accelerometer values to led range 0-255
+  // map accelerometer values to led range 0-255
 
   if (lis.x > 0) {
     nRed = lis.x / 255; // calculate number of times it goes over the 0-255 range
