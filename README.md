@@ -123,4 +123,4 @@ The data logger I created measures the percentage of time that you spend sitting
 
 **a. Record and upload a short demo video of your logger in action.**
 
-[Link to Data Logger](//github.com/evaesteban/IDD-Fa19-Lab3/blob/master/Device_Video.mp4)
+[Link to Data Logger Video](//github.com/evaesteban/IDD-Fa19-Lab3/blob/master/Device_Video.mp4)
