@@ -115,6 +115,8 @@ For this part, I used the photocell as the sensor to vary from the accelerometer
 
 ### 3. Create your data logger!
  
+The data logger I created measures the percentage of time that you spend sitting in an incorrect posture. From the moment you clear the EEPROM with the potentiometer, it starts counting the number of seconds you spend with the top of your back not touching the chair. It also counts the number of seconds you spend sitting in total. It calculates the ratio of these two quantities, obtaining the percentage of time you spend sitting incorrectly. Once you finish your study session or the activity you are doing while sitting, you can use the potentiometer to indicate the end of the session and log the data. Using the potentiometer again, you can display the percentage of time on the serial monitor. You can then clear the data for the next session and keep reducing the percentage of time until you obtain 0% time sitting incorrectly!
+
 **a. Record and upload a short demo video of your logger in action.**
 
 [Link to Data Logger](//github.com/evaesteban/IDD-Fa19-Lab3/blob/master/Device_Video.mp4)
