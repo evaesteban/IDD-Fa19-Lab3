@@ -69,6 +69,7 @@ For this question, instead of using the in-built map() function, I did the mappi
 For this question I displayed the Force Sensitive Resistor (FSR) values.
 
 [Link to Graphic Display Code](//github.com/evaesteban/IDD-Fa19-Lab3/blob/master/Graphic_Display.ino)
+
 ![](Graphic_Display.jpeg)
 
 ## Part D. Logging values to the EEPROM and reading them back
