@@ -116,3 +116,5 @@ For this part, I used the photocell as the sensor to vary from the accelerometer
 ### 3. Create your data logger!
  
 **a. Record and upload a short demo video of your logger in action.**
+
+[Link to Data Logger](//github.com/evaesteban/IDD-Fa19-Lab3/blob/master/Device_Video.mp4)
