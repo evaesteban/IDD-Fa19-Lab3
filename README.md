@@ -62,12 +62,13 @@ For this question, instead of using the in-built map() function, I did the mappi
 
 [Link to Accelerometer LED Code](//github.com/evaesteban/IDD-Fa19-Lab3/blob/master/LCD_Accel.ino)
 
-## Optional. Graphic Display
+## Graphic Display
 
 **Take a picture of your screen working insert it here!**
 
 For this question I displayed the Force Sensitive Resistor (FSR) values.
 
+![](Graphic_Display.jpeg)
 [Link to Graphic Display Code](//github.com/evaesteban/IDD-Fa19-Lab3/blob/master/Graphic_Display.ino)
 
 ## Part D. Logging values to the EEPROM and reading them back
